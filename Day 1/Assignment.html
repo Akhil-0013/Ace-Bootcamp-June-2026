@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="https://pyscript.net/releases/2026.6.1/core.css" />
+<script type="module" src="https://pyscript.net/releases/2026.6.1/core.js"></script>
+
+</head>
+
+<body>
+
+<script type="py">
+
+from pyscript import when, display
+num1 = int(input("Enter Your Number:"))
+num2 = int(input("Enter Your Number:"))
+operator = input("Select the following assignment operators : = , += , -= , *= , /= , %= , **= : ")
+
+if operator == "=":
+    num1=num2
+    display(num1)
+
+elif operator == "+=":
+    num1+=num2
+    display(num1)
+
+
+elif operator == "-=":
+    num1-=num2
+    display(num1)
+
+elif operator == "*=":
+    num1*=num2
+    display(num1)
+
+elif operator == "/=":
+    num1/=num2
+    display(num1)
+
+elif operator == "%=":
+    num1%=num2
+    display(num1)
+
+elif operator == "**=":
+    num1**=num2
+    display(num1)
+
+
+else:
+    display("NULL")
+
+
+</script>
+</body>
+</html>
