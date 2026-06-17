@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="https://pyscript.net/releases/2026.6.1/core.css" />
+<script type="module" src="https://pyscript.net/releases/2026.6.1/core.js"></script>
+
+</head>
+
+<body>
+
+<script type="py">
+
+from pyscript import when, display
+a = int(input("Enter Your Number:"))
+b = int(input("Enter Your Number:"))
+
+operator = input("Select the folloing Operators : == , != , > , < , >= , <= :")
+
+if operator == "==":
+    display(a==b)
+
+elif operator == "!=":
+    display(a != b)
+
+elif operator == ">":
+    display(a > b)
+
+elif operator == "<":
+    display(a < b)
+
+elif operator == ">=":
+    display(a >= b)
+
+elif operator == "<=":
+    display(a <= b)
+
+else:
+    display("NULL")
+
+
+</script>
+</body>
+</html>
